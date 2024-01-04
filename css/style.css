@@ -212,6 +212,7 @@ video
     position: relative;
     z-index: 10;
     justify-content: space-between;
+    cursor: default
 }
 
 #about-us img
@@ -316,3 +317,31 @@ video
     transform: rotate3d(-1, 1, 0, 20deg);
 }
   
+#green-div
+{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    cursor: default;
+    padding: 0 60px;
+    background-color: linear-gradient(to bottom-left red, blue);
+}
+
+#green-div h4 
+{
+    width: 50%;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#green-div img
+{
+    height: 100%;
+    object-fit: cover;
+    width: 10%;
+    border-radius: 20px;
+}
